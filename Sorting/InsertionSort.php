@@ -1,6 +1,8 @@
 <?php
 
-class InsertionSort
+require_once __DIR__ . '/Sort.php';
+
+class InsertionSort implements Sort
 {
     public static function sort($array = []): array
     {

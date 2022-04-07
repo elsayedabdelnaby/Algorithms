@@ -1,6 +1,8 @@
 <?php
 
-class SelectionSort
+require_once __DIR__ . '/Sort.php';
+
+class SelectionSort implements Sort
 {
     public static function sort($array = []): array
     {

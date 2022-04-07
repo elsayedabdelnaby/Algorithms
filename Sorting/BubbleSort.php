@@ -1,6 +1,8 @@
 <?php
 
-class BubbleSort
+require_once __DIR__ . '/Sort.php';
+
+class BubbleSort implements Sort
 {
     public static function sort($array = []): array
     {
